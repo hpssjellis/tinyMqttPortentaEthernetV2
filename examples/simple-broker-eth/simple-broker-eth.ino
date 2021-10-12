@@ -1,6 +1,6 @@
 #include <PortentaEthernet.h>
 #include <Ethernet.h>
-#include <TinyMqtt.h>   // https://github.com/hsaturn/TinyMqtt
+#include <tinyMqttPortentaEthernetV2.h>   // https://github.com/hsaturn/TinyMqtt
 
 
 
