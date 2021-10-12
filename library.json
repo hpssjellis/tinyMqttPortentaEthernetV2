@@ -11,6 +11,6 @@
     "examples": "examples/*/*.ino",
     "frameworks": "arduino",
     "platforms": [
-        "portenta"
+        "PORTENTA_H7_M4"
     ]
 }
