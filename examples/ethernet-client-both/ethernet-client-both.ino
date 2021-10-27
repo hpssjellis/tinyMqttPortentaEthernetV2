@@ -116,7 +116,7 @@ void loop()
     Serial << "A is publishing " << topic.c_str() << endl;
     timerA += intervalA;
     
-    myFakeTemperature += (random(100)-50)/10.0; // slightly changes temperature like a sensor would
+    myFakeTemperature += (random(100)-50)/100.0; // slightly changes temperature like a sensor would
     mqtt_a.publish(topic, String(myFakeTemperature,2)); // float to 2 decimals
   }
 
